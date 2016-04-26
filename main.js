@@ -24,7 +24,7 @@ $(document).ready(function (){
 				plane.receiveShadow = true;
 				// ASCII file
 				var loader = new THREE.STLLoader();
-				loader.load( '/assets/stl/arduinosHome.STL', function ( geometry ) {
+				loader.load( '/assets/stl/Hydra.STL', function ( geometry ) {
 					var material = new THREE.MeshPhongMaterial( { color: 0xf44336, specular: 0x111111, shininess: 200 } );
 					var mesh = new THREE.Mesh( geometry, material );
 					mesh.position.set( 0.3, -0.5, 0 );
