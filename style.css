@@ -1,3 +1,4 @@
+
 .img-size-constrain{
 	max-height: 30vw;
 }
@@ -5,3 +6,8 @@
 	margin-bottom: 10px;
 	margin-top: -10px;
 }
+
+p {
+	text-align:center;
+}
+
