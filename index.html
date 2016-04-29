@@ -6,8 +6,10 @@
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Metas -->
+	<script src="js/wow.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 </head>
@@ -15,7 +17,7 @@
 
 	<!-- Nav Banner -->
 	<nav>
-		<div class="nav-wrapper red darken-3">
+		<div class="nav-wrapper nav-color">
 			<a href="index.html" class="brand-logo">Hydra</a>
 			<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
@@ -36,15 +38,20 @@
 	<!-- Contents -->
 	<div class="container" style ="margin-top:10px;">
 		<div class="row valign">
-			<img class="responsive-img" src="img/logo.png">
+			<img class="responsive-img animated fadeIn" src="img/logo.png">
 		</div>
 	</div>
 	<!-- JavaScript -->
 	<!-- Materialize -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	<!-- AnimateCSS -->
 	<!-- Local -->
 	<script type="text/javascript" src="main.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
 
 
 </body>
