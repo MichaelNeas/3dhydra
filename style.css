@@ -15,9 +15,17 @@ body {
 }
 
 p {
-	text-align:center;
+	text-align:left;
 }
 .icon-pad{
 	margin: 15px 15px ;
 }
 
+#projButtons li a{
+	margin-right:0px;
+	margin-left:5px;
+}
+
+.brand-logo{
+	margin-left:3px;
+}
